@@ -1,0 +1,43 @@
+.carousel-caption h5 {
+    font-size: 80px;
+    font-weight: 650;
+}
+.czcionka2 {
+    font-family: Snell Roundhand;
+    color: #014797;
+    font-style: italic;
+    font-weight: 350;
+    font-size: 25px;
+}
+.autor {
+    font-family: cursive;
+    color: #cea10b;
+    font-style: bold;
+    font-weight: 950;
+    font-size: 45px;
+}
+#text-formularza {
+    color: #b89703;
+    font-style: italic;
+    font-weight: 550;
+    font-size: 16px;
+    border-bottom: 5px solid #b89703;
+}
+#kontakt-godziny {
+    color: #1e6808;
+    font-style: bold;
+    font-weight: 550;
+    font-size: 40px;
+}
+#duza-litera {
+    font-family: Snell Roundhand;
+    color: #3a8ef0;
+    font-style: italic;
+    font-weight: 650;
+    font-size: 55px;
+}
+footer {
+    text-align: center;
+    margin-top: 280px;
+    background-color: #fcf5d9;
+  }

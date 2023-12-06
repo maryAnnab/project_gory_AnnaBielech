@@ -1,0 +1,128 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/style/styles.css">
+    <meta name="viewport" content="widh=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Strona o gorach</title>
+</head>
+<body>
+    <!-- menu moj navbar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/img/logo/klub_gorski.png" alt="moje Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="autor.html">Autor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="kontakt.html">Kontakt</a>
+        </li>
+        </ul>
+    </div>
+  </div>
+</nav>
+ <!-- menu moj navbar koniec -->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="assets/img/slider/tatry-granaty.jpg" class="d-block w-100" alt="zdjęcie tatr">
+                <div class="pb-5 carousel-caption d-none d-md-block">
+                    <h5>TATRY W SNIEGU</h5>
+                    <p>Zobacz jak piekny jest wschod slonca w TATRACH i dowiedz sie jak tam dotrzec.</p>
+                    <a href="#rodzaje-gor" class="btn btn-light btn-lg page-scroll">Zapraszamy</a>
+                </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="assets/img/slider/niedzwiedz_bieszczady.jpg" class="d-block w-100" alt="zdjecie bieszczd">    
+                <div class="pb-5 carousel-caption d-none d-md-block">
+                    <h5>DZIKIE BIESZCZADY</h5>
+                    <p>Widziales kiedys Niedźwiedzie na zywo?</p>
+                    <a href="#rodzaje-gor" class="btn btn-light btn-lg page-scroll">Zapraszamy</a>
+                </div>
+          </div>
+            <div class="carousel-item" data-bs-interval="4000">
+            <img src="assets/img/slider/tatry_zachodnie.jpg" class="d-block w-100" alt="zdjęcie tatry_zachodnie">    
+                <div class="pb-5 carousel-caption d-none d-md-block">
+                    <h5>TATRY ZACHODNIE</h5>
+                    <p>Nie masz doswiadczenia? Latwo dostepne i magiczne widoki to wlasnie sa TZ!</p>
+                    <a href="#rodzaje-gor" class="btn btn-light btn-lg page-scroll">Zapraszamy</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+            <img src="assets/img/slider/lomnica.jpg" class="d-block w-100" alt="zdjęcie lomnicy">    
+                <div class="pb-5 carousel-caption d-none d-md-block">>
+                    <h5>TATRY SŁOWACKIE</h5>
+                    <p>ŁOMNICA, to zimowe wyzwanie!</p>
+                    <a href="#rodzaje-gor" class="btn btn-light btn-lg page-scroll">Zapraszamy</a>
+                </div>
+            </div>
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Poprzedni</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Następny</span>
+            </button>
+        </div>
+        <div class="container">
+    <div class="row">
+        <div id="rodzaje-gor">
+           <!-- nagłówek gory -->
+           <div class="text-center mt-5">
+            <h2 class="g-font-weight-600 g-font-size-80 text-uppercase">najciekawsze zakątki</h2>
+           </div>
+           <!-- nagłówek gory END -->
+            <table class="table mt-3">
+                <thead class="thead-light">
+                    <tr>
+                      <th class="table-info" scope="col"></th>
+                      <th class="table-info" scope="col">Tatry</th>
+                      <th class="table-info" scope="col">Bieszczady</th>
+                    </tr>
+                </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Rysy</td>
+                      <td>Tarnica</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Łomnica</td>
+                      <td>Bukowe Berdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Tatry Zachodnie</td>
+                      <td>Połoninę Wetlińską oraz Caryńską</td>
+                    </tr>
+                      <tr>
+                      <th scope="row">4</th>
+                      <td>Dolina Pięciu Stawów Polskich</td>
+                      <td>Rezerwat przyrody Sine Wiry, Źródła Sanu</td>
+                    </tr>
+                  </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+        crossorigin="anonymous"></script>
+
+        <footer>
+          <p>Author: Anna Bielech Kraków ul. Bronowicka 57, 32-342 Kraków, Klub Górski, NIP: 38665542, Prawa Zastrzeżone</p>
+          <a href="mailto:anna@example.com">anna@example.com</a></p>
+        </footer>
+</body>
+</html>
